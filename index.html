@@ -1,22 +1,26 @@
-
 <!DOCTYPE html>
 	<head>
 		<meta charset="utf-8">
-		<title>Title</title>
+		<title>starfield</title>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="styles.css">
+		<link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/209/milky-way_1f30c.png"> 
 		<script src="processing.js"></script>
 	</head>
 	<body>
 		<header>
-			<h1>Headline</h1>
+			<h1>🌌 starfield 🌌</h1>
 		</header>
 			<section id="content">
 				<canvas id="Starfield" data-processing-sources="Starfield.pde">
 				</canvas>
 		    </section>
+		<div class="instructions"><span style="color:DarkGray">Click</span> to go turbo and press <span style="color:DarkGray">spacebar</span> to show the astronaut!</div>
+			<div class="btn btn-reset" onClick="window.location.reload();">
+    				<span onClick="window.location.reload();">RESET</span>
+  			</div>
 	    <footer>
-		    Footer
+		    Starfield Project Made By <a href="https://github.com/lukalewin" style="color:DarkGray">Luka Lewin</a>
 	    </footer>
 	</body>
 </html>
